@@ -30,8 +30,8 @@ $ git clone https://github.com/RaphaelDeLaGhetto/grunt-init-gebo-hai.git ~/.grun
 $ mkdir mynewproject
 $ cd mynewproject
 $ grunt-init gebo-hai
-$ npm install
-$ bower install
+$ sudo npm install
+$ sudo bower install
 ```
 
 ### Run your server
