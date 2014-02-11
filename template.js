@@ -82,7 +82,7 @@ exports.template = function(grunt, init, done) {
     init.addLicenseFiles(files, props.licenses);
 
     // Actually copy (and process) files.
-    init.copyAndProcess(files, props);
+    init.copyAndProcess(files, props, { noProcess: 'app/images/**' });
 
     // Generate package.json file.
     init.writePackageJSON('package.json', props);
