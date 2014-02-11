@@ -38,7 +38,7 @@ exports.template = function(grunt, init, done) {
     // Prompt for these values.
     init.prompt('name'),
     init.prompt('description'),
-    init.prompt('version'),
+    init.prompt('version', '0.0.0'),
     init.prompt('repository'),
     init.prompt('homepage'),
     init.prompt('bugs'),
