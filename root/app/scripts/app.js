@@ -1,7 +1,7 @@
 'use strict';
 
-angular.module('geboBlogHaiApp', ['ngResource', 'ngRoute', 'ui.bootstrap',
-                                  'gebo-client-token', 'gebo-client-token'])
+angular.module('geboHai', ['ngResource', 'ngRoute', 'ui.bootstrap',
+                           'gebo-client-token', 'gebo-client-token'])
   .config(['$routeProvider', function ($routeProvider) {
     $routeProvider
       .when('/', {
