@@ -46,7 +46,7 @@ exports.template = function(grunt, init, done) {
     init.prompt('author_name'),
     init.prompt('author_email'),
     init.prompt('author_url'),
-    init.prompt('main')
+    init.prompt('main', 'app/<project-name>.js')
   ], function(err, props) {
     props.keywords = [];
     props.dependencies = {};
