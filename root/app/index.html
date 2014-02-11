@@ -15,17 +15,17 @@
         <link rel="stylesheet" href="styles/main.css">
         <!-- endbuild -->
     </head>
-    <body ng-app="geboHai">
-    <div class="navbar navbar-default navbar-fixed-top navbar-inverse" role="navigation">
-        <div class="container">
-            <div class="navbar-header">
-                <button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="glyphicon glyphicon-list" style="color:white;"></span>
-                </button>
-                <a class="navbar-brand" href="#/">{%= name %}</a>
-                </div>
-                <div class="navbar-collapse collapse">
+    <body ng-app="geboHai" ng-controller="MainCtrl">
+        <div class="navbar navbar-default navbar-fixed-top navbar-inverse" role="navigation">
+            <div class="container">
+                <div class="navbar-header">
+                    <button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="glyphicon glyphicon-list" style="color:white;"></span>
+                    </button>
+                    <a class="navbar-brand" href="#/">{%= name %}</a>
+                    </div>
+                    <div class="navbar-collapse collapse">
                         <div ng-show="verified">
                             <!--
                             <ul class="nav navbar-nav">
@@ -42,7 +42,7 @@
                         </div>
                         <div ng-show="!verified">
                             <ul class="nav navbar-nav">
-                                    <li><a>Will you allow {%= name %} access to your gebo account?</a></li>
+                                <li><a>Will you allow {%= name %} access to your gebo account?</a></li>
                                 <li><a ng-click="authenticate()">Yes</a></li>
                             </ul>
                         </div>
