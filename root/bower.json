@@ -1,6 +1,6 @@
 {
-  "name": "geboBlogHai",
-  "version": "0.0.0",
+  "name": "{%= name %}",
+  "version": "{%= version %}",
   "dependencies": {
     "angular": "~1.2.x",
     "json3": "~3.2.x",
