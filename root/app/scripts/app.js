@@ -8,6 +8,14 @@ angular.module('geboHai', ['ngResource', 'ngRoute', 'ui.bootstrap',
         templateUrl: 'views/main.html',
         controller: 'MainCtrl'
       })
+      .when('/action', {
+        templateUrl: 'views/action.html',
+        controller: 'ActionCtrl'
+      })
+      .when('/token', {
+        templateUrl: 'views/token.html',
+        controller: 'MainCtrl'
+      })
       .otherwise({
         redirectTo: '/'
       });
