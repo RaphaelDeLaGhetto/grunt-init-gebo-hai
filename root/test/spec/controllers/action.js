@@ -3,7 +3,7 @@
 describe('Controller: ActionCtrl', function () {
 
   // load the controller's module
-  beforeEach(module('nameApp'));
+  beforeEach(module('geboHai'));
 
   var ActionCtrl,
     scope;
