@@ -10,6 +10,14 @@ npm install && bower install
 
 Test
 ====
+The karma unit and e2e tests use PhantomJS by default
+
+```
+sudo apt-get install phantomjs
+```
+
+Once your preferred test browser is installed, run:
+
 ```
 grunt test
 ```
