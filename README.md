@@ -11,8 +11,8 @@ This software, in conjunction with grunt-init, creates a ready-to-deploy/develop
 if you haven't already, that is... Gebo currently depends on grunt@0.4.1. This requires a bit of prep work.
 
 ```
-$ sudo npm install grunt-cli -g
-$ sudo npm install grunt-init -g
+sudo npm install grunt-cli -g
+sudo npm install grunt-init -g
 ```
 
 The first command enables you to run the grunt installed locally, automatically. The second allows you to call grunt-init on this template.
@@ -21,23 +21,23 @@ The first command enables you to run the grunt installed locally, automatically.
 This is going in your `~/.grunt-init/` directory
 
 ```
-$ git clone https://github.com/RaphaelDeLaGhetto/grunt-init-gebo-hai.git ~/.grunt-init/gebo-hai
+git clone https://github.com/RaphaelDeLaGhetto/grunt-init-gebo-hai.git ~/.grunt-init/gebo-hai
 ```
 
 ### Create a new project:
 
 ```
-$ mkdir mynewproject
-$ cd mynewproject
-$ grunt-init gebo-hai
-$ sudo npm install
-$ sudo bower install
+mkdir mynewproject
+cd mynewproject
+grunt-init gebo-hai
+sudo npm install
+sudo bower install
 ```
 
 ### Run your server
 
 ```
-$ grunt server
+grunt server
 ```
 
 and go to <http://localhost:9000>.
