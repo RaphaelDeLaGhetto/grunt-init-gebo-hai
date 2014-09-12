@@ -31,7 +31,7 @@ mkdir mynewproject
 cd mynewproject
 grunt-init gebo-hai
 sudo npm install
-sudo bower install
+bower install
 ```
 
 ### Run your server
